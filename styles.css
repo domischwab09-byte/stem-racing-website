@@ -106,6 +106,7 @@ body {
 }
 
 .cta-button {
+    display: inline-block;
     background-color: var(--secondary-color);
     color: var(--white);
     border: none;
@@ -115,7 +116,9 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 600;
+    text-decoration: none;
 }
+
 
 .cta-button:hover {
     background-color: #ff5a1f;
@@ -455,3 +458,4 @@ body {
         font-size: 1.5rem;
     }
 }
+
