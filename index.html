@@ -3,153 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STEM Racing f1 in school - Racing Team</title>
+    <title>VRC STEM Racing | Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <div class="bg-orb left"></div>
+    <div class="bg-orb right"></div>
+
     <nav class="navbar">
         <div class="navbar-container">
-            <div class="navbar-logo">
-                <span class="logo-icon">⚡</span>
-                <span>VRC</span>
-            </div>
+            <a class="navbar-logo" href="index.html">
+                <span class="logo-chip">VRC</span>
+                <span class="brand-text">STEM Racing</span>
+            </a>
             <ul class="navbar-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#team" class="nav-link">Team</a></li>
-                <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a class="nav-link active" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="explore.html">Explore</a></li>
+                <li><a class="nav-link" href="car.html">Car</a></li>
+                <li><a class="nav-link" href="team.html">Team</a></li>
+                <li><a class="nav-link" href="performance.html">Performance</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <!-- F1 Car SVG Background -->
-            <svg class="f1-car" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-                <!-- Chassis -->
-                <ellipse cx="100" cy="55" rx="80" ry="25" fill="#ff6b35" opacity="0.15"/>
-                <!-- Front wing -->
-                <rect x="20" y="40" width="30" height="8" fill="#ff6b35" opacity="0.2" rx="2"/>
-                <!-- Cockpit -->
-                <rect x="85" y="35" width="30" height="25" fill="#ff6b35" opacity="0.25" rx="3"/>
-                <!-- Rear wing -->
-                <rect x="150" y="38" width="25" height="12" fill="#ff6b35" opacity="0.2" rx="2"/>
-                <!-- Wheels -->
-                <circle cx="50" cy="75" r="12" fill="#ff6b35" opacity="0.2"/>
-                <circle cx="150" cy="75" r="12" fill="#ff6b35" opacity="0.2"/>
-            </svg>
-        </div>
-        <div class="hero-content">
-            <h1 class="hero-title">
-                In Via Recta Celeriter <span class="highlight"></span>
-            </h1>
-            <p class="hero-subtitle">
-                Professional Stem Racing Team
-            </p>
-            <a href="explore.html" class="cta-button">Explore</a>
-        </div>
-    </section>
+    <main>
+        <section class="container hero">
+            <div>
+                <span class="hero-badge">F1 in Schools Program</span>
+                <h1>In Via Recta Celeriter</h1>
+                <p>
+                    We are VRC: a high-performance STEM Racing team developing a fast, data-driven and
+                    competition-ready race car. We combine design engineering, sponsorship strategy,
+                    manufacturing precision and race execution.
+                </p>
+                <div class="cta-row">
+                    <a class="btn primary" href="explore.html">Start Experience</a>
+                    <a class="btn ghost" href="performance.html">View Results</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://via.placeholder.com/680x430?text=VRC+Launch+Car" alt="VRC race car hero visual">
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <h2 class="section-title">About Our Team</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3> Year 12, Kingswood school</h3>
-                    <p>
-                        We are a professional Stem racing team 
+        <section class="section">
+            <div class="container">
+                <h2>Team Snapshot</h2>
+                <div class="kpi-strip">
+                    <article class="kpi">
+                        <p class="value">6</p>
+                        <p class="label">Core Team Roles</p>
+                    </article>
+                    <article class="kpi">
+                        <p class="value">20m</p>
+                        <p class="label">Official Race Distance</p>
+                    </article>
+                    <article class="kpi">
+                        <p class="value">CNC</p>
+                        <p class="label">Manufacturing Platform</p>
+                    </article>
+                    <article class="kpi">
+                        <p class="value">CFD</p>
+                        <p class="label">Aerodynamic Analysis</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section panel">
+            <div class="container split">
+                <div>
+                    <h2 style="text-align:left; margin-bottom:0.8rem;">What Makes Us Different</h2>
+                    <p style="color: var(--muted); margin-bottom: 0.8rem;">
+                        We treat the project like a professional motorsport operation: every decision is linked
+                        to measurable performance, budget impact and race-day consistency.
                     </p>
-                    <p>
-                         
-                    </p>
+                    <div class="pill-list">
+                        <span class="pill">Aero-First Design</span>
+                        <span class="pill">Iteration Cycles</span>
+                        <span class="pill">Sponsor-Ready Branding</span>
+                        <span class="pill">Data-Backed Decisions</span>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="photo of the car" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="section team-section">
-        <div class="container">
-            <h2 class="section-title">Meet the Team</h2>
-            <div class="team-grid">
-                <div class="team-card">
-                    <img src="https://via.placeholder.com/150x150?text=Team+Member+1" alt="Oscar, Nathan, Dominik">
-                    <h3>Engineer</h3>
-                    <p>Aerodynamics & Design</p>
-                </div>
-                <div class="team-card">
-                    <img src="https://via.placeholder.com/150x150?text=Team+Member+2" alt="Tom">
-                    <h3>Another Engineer</h3>
-                    <p>Build & Construction</p>
-                </div>
-                <div class="team-card">
-                    <img src="https://via.placeholder.com/150x150?text=Team+Member+3" alt="Nathan">
-                    <h3>Group Leader</h3>
-                    <p></p>
-                </div>
-                <div class="team-card">
-                    <img src="https://via.placeholder.com/150x150?text=Team+Member+4" alt="Theo">
-                    <h3>Marketing</h3>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="section gallery-section">
-        <div class="container">
-            <h2 class="section-title">Gallery</h2>
-            <div class="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="https://via.placeholder.com/300x200?text=Race+Action" alt="">
-                <img src="https://via.placeholder.com/300x200?text=Celebration" alt="">
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <h2 class="section-title">-----</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Contact Details</h3>
-                    <p><strong>Email:</strong> <a href="mailto:stemracing.vrc@gmail.com">stemracing.vrc@gmail.com</a></p>
-                    <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
-                </div>
-                <div class="social-media">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#" class="social-link" title="Twitter">𝕏</a>
-                        <a href="#" class="social-link" title="Instagram">📷</a>
-                        <a href="#" class="social-link" title="YouTube">▶</a>
-                        <a href="#" class="social-link" title="LinkedIn">💼</a>
+                <div class="card">
+                    <img src="https://via.placeholder.com/620x380?text=Workshop+Session" alt="Team workshop session">
+                    <div class="card-body">
+                        <h3>Workshop Culture</h3>
+                        <p>Fast prototyping, strict quality checks, and clear role ownership in every phase.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <section class="section">
+            <div class="container">
+                <h2>Discover The Full Project</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <img src="https://via.placeholder.com/420x260?text=Engineering+Story" alt="Engineering story">
+                        <div class="card-body">
+                            <h3>Explore</h3>
+                            <p>From concept to launch: full development overview.</p>
+                            <a class="btn ghost" href="explore.html">Open</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://via.placeholder.com/420x260?text=Car+Architecture" alt="Car architecture">
+                        <div class="card-body">
+                            <h3>Car Platform</h3>
+                            <p>Geometry, materials and build standards.</p>
+                            <a class="btn ghost" href="car.html">Open</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://via.placeholder.com/420x260?text=Race+Data" alt="Race performance">
+                        <div class="card-body">
+                            <h3>Performance</h3>
+                            <p>KPIs, test runs and target improvements.</p>
+                            <a class="btn ghost" href="performance.html">Open</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 STEM Racing in Schools. All rights reserved.</p>
+        <div class="footer-inner">
+            <p>&copy; 2026 VRC STEM Racing Team - Kingswood School UK</p>
+            <div class="footer-links">
+                <a href="explore.html">Explore</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
     </footer>
 </body>
 </html>
-
 
 
 
