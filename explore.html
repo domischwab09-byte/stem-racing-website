@@ -2,166 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Explore – VRC STEM Racing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRC STEM Racing | Explore</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <div class="bg-orb left"></div>
+    <div class="bg-orb right"></div>
 
-    <!-- ================= NAVBAR ================= -->
     <nav class="navbar">
         <div class="navbar-container">
-            <div class="navbar-logo">
-                <span class="logo-icon">⚡</span>
-                <span>VRC</span>
-            </div>
-
+            <a class="navbar-logo" href="index.html">
+                <span class="logo-chip">VRC</span>
+                <span class="brand-text">STEM Racing</span>
+            </a>
             <ul class="navbar-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="#car" class="nav-link">Car</a></li>
-                <li><a href="#process" class="nav-link">Process</a></li>
-                <li><a href="#stats" class="nav-link">Performance</a></li>
-                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link active" href="explore.html">Explore</a></li>
+                <li><a class="nav-link" href="car.html">Car</a></li>
+                <li><a class="nav-link" href="team.html">Team</a></li>
+                <li><a class="nav-link" href="performance.html">Performance</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Engineering Journey</h1>
+                <p>
+                    This page maps our complete workflow from early concept sketches to race execution.
+                    Every phase has objectives, measurements and clear ownership.
+                </p>
+            </div>
+        </section>
 
-    <!-- ================= HERO ================= -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Explore Our Engineering</h1>
-            <p>
-                Discover how our STEM Racing team designs, tests and builds a
-                competitive F1 in Schools car using aerodynamics, precision
-                manufacturing and teamwork.
-            </p>
-
-            <a href="#car" class="cta-button">Discover the Car ↓</a>
-        </div>
-
-        <div class="hero-image">
-            <img src="https://via.placeholder.com/600x400?text=F1+Car+Render" alt="">
-        </div>
-    </section>
-
-
-    <!-- ================= CAR SECTION ================= -->
-    <section id="car" class="section about">
-        <div class="container">
-            <h2>Our Race Car</h2>
-
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        Our car is designed using CAD software and optimized for
-                        minimal drag and maximum speed. Every curve and surface
-                        is tested using simulations and wind tunnel experiments.
+        <section class="section">
+            <div class="container split">
+                <div>
+                    <h2 style="text-align:left; margin-bottom:0.7rem;">Design Philosophy</h2>
+                    <p style="color:var(--muted); margin-bottom:0.8rem;">
+                        We optimize for low drag, stable launch behavior and manufacturing repeatability.
+                        Instead of only chasing a single fast run, we focus on reliable performance.
                     </p>
-
-                    <p>
-                        Lightweight materials, precision CNC machining and
-                        detailed finishing allow us to reach top performance on track.
-                    </p>
+                    <div class="pill-list">
+                        <span class="pill">Low Drag Profile</span>
+                        <span class="pill">Balanced Mass</span>
+                        <span class="pill">Tight Tolerances</span>
+                        <span class="pill">Race Repeatability</span>
+                    </div>
                 </div>
-
-                <div class="about-image">
-                    <img src="https://via.placeholder.com/500x350?text=Car+Design" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= PROCESS ================= -->
-    <section id="process" class="section team">
-        <div class="container">
-            <h2>Our Development Process</h2>
-
-            <div class="team-grid">
-
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/400x300?text=CAD" alt="">
-                    <h3>Design</h3>
-                    <p>CAD modelling and aerodynamic optimisation</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/400x300?text=Testing" alt="">
-                    <h3>Testing</h3>
-                    <p>Wind tunnel and track experiments</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/400x300?text=Manufacturing" alt="">
-                    <h3>Manufacturing</h3>
-                    <p>CNC machining and precision assembly</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="https://via.placeholder.com/400x300?text=Race+Day" alt="">
-                    <h3>Race Day</h3>
-                    <p>Competition performance and teamwork</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= STATS ================= -->
-    <section id="stats" class="section gallery">
-        <div class="container">
-            <h2>Performance Stats</h2>
-
-            <div class="gallery-grid">
-
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=0.9s+Reaction" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=20m+Track" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Lightweight+Build" alt="">
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ================= GALLERY ================= -->
-    <section id="gallery" class="section gallery">
-        <div class="container">
-            <h2>Behind the Scenes</h2>
-
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/400x300?text=Workshop" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/400x300?text=Teamwork" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/400x300?text=Competition" alt="">
+                <div class="card">
+                    <img src="https://via.placeholder.com/620x380?text=Digital+Model" alt="CAD model display">
+                    <div class="card-body">
+                        <h3>Digital Twin Workflow</h3>
+                        <p>CAD base model, CFD validation, then controlled transfer into CNC manufacturing.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section class="section panel">
+            <div class="container">
+                <h2>Development Timeline</h2>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <p class="step">Phase 01</p>
+                        <h3>Concept + Rules Analysis</h3>
+                        <p>Initial ideas, constraints from regulations, and role allocation.</p>
+                    </article>
+                    <article class="timeline-item">
+                        <p class="step">Phase 02</p>
+                        <h3>Geometry + CFD Iterations</h3>
+                        <p>Rapid iterations with drag checks, wheel management and packaging studies.</p>
+                    </article>
+                    <article class="timeline-item">
+                        <p class="step">Phase 03</p>
+                        <h3>Prototype Manufacturing</h3>
+                        <p>CNC milling, controlled finishing and dimensional quality control.</p>
+                    </article>
+                    <article class="timeline-item">
+                        <p class="step">Phase 04</p>
+                        <h3>Testing + Race Preparation</h3>
+                        <p>Launch practice, setup standardization and final reliability checks.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <!-- ================= FOOTER ================= -->
+        <section class="section">
+            <div class="container">
+                <h2>Project Highlights</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <img src="https://via.placeholder.com/420x270?text=CAD+Sprint" alt="CAD sprint">
+                        <div class="card-body">
+                            <h3>CAD Sprint Sessions</h3>
+                            <p>Focused 90-minute cycles to compare concepts and lock fast decisions.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://via.placeholder.com/420x270?text=Team+Review" alt="Team review">
+                        <div class="card-body">
+                            <h3>Review Board</h3>
+                            <p>Weekly engineering review with action items for each department.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://via.placeholder.com/420x270?text=Race+Launch" alt="Race launch">
+                        <div class="card-body">
+                            <h3>Launch Consistency</h3>
+                            <p>Reaction and setup protocol to reduce variance under pressure.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 VRC STEM Racing Team – Kingswood School UK</p>
+        <div class="footer-inner">
+            <p>&copy; 2026 VRC STEM Racing Team - Kingswood School UK</p>
+            <div class="footer-links">
+                <a href="car.html">Car</a>
+                <a href="performance.html">Performance</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
     </footer>
-
 </body>
 </html>
